@@ -29,6 +29,8 @@ Here's a list of useful online resources for learning or experimenting.
 
 [Workflows with pipelines - civisanalytics][3]
 
+[Tensorflow learn - Estimator examples ][11]
+
 
 
 
@@ -42,4 +44,4 @@ Here's a list of useful online resources for learning or experimenting.
 [8]: https://github.com/caesar0301/awesome-public-datasets
 [9]: https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet
 [10]: https://www.kaggle.com/kakauandme/tensorflow-deep-nn
-
+[11]: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/learn
