@@ -20,6 +20,15 @@ Here's a list of useful online resources for learning or experimenting.
 
 [A very good repo with an awesome list][8]
 
+## Frameworks/Libraries
+
+[Tensorflow Seq2Seq][12]
+
+[Tensorflow Seq2Seq actual repo][13]
+
+[Tensorflow seq2seq blog post][16]
+
+
 
 ## Tutorials:
 
@@ -30,6 +39,18 @@ Here's a list of useful online resources for learning or experimenting.
 [Workflows with pipelines - civisanalytics][3]
 
 [Tensorflow learn - Estimator examples ][11]
+
+[LSTM RNN Very well explained][15]
+
+[Word2Vec Tensorflow - Medium.com][14]
+
+[LSTM RNN Tensorflow - Medium.com][17]
+
+[RNNs in Tensorflow - WILDML.com][18]
+
+[Retrieval based chatbot Tensorflow - WILDML.com][19]
+
+[Reinforcement Learning - WILDML.com][20]
 
 
 
@@ -45,3 +66,12 @@ Here's a list of useful online resources for learning or experimenting.
 [9]: https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet
 [10]: https://www.kaggle.com/kakauandme/tensorflow-deep-nn
 [11]: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/learn
+[12]: https://google.github.io/seq2seq/
+[13]: https://github.com/google/seq2seq
+[14]: https://medium.com/towards-data-science/learn-word2vec-by-implementing-it-in-tensorflow-45641adaf2ac
+[15]: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+[16]: https://opensource.googleblog.com/2017/04/tf-seq2seq-sequence-to-sequence-framework-in-tensorflow.html
+[17]: https://medium.com/towards-data-science/lstm-by-example-using-tensorflow-feb0c1968537
+[18]: http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/
+[19]: http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/
+[20]: http://www.wildml.com/2016/10/learning-reinforcement-learning/
