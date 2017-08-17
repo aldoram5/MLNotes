@@ -44,6 +44,8 @@ Here's a list of useful online resources for learning or experimenting.
 
 [Word2Vec Tensorflow - Medium.com][14]
 
+[Word2Vec Explained very well][21]
+
 [LSTM RNN Tensorflow - Medium.com][17]
 
 [RNNs in Tensorflow - WILDML.com][18]
@@ -75,3 +77,4 @@ Here's a list of useful online resources for learning or experimenting.
 [18]: http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/
 [19]: http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/
 [20]: http://www.wildml.com/2016/10/learning-reinforcement-learning/
+[21]: http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
