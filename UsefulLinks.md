@@ -28,6 +28,7 @@ Here's a list of useful online resources for learning or experimenting.
 
 [Tensorflow seq2seq blog post][16]
 
+[][23]
 
 
 ## Tutorials:
@@ -54,6 +55,11 @@ Here's a list of useful online resources for learning or experimenting.
 
 [Reinforcement Learning - WILDML.com][20]
 
+[Understanding t-SNE][22]
+
+[Word Embeddings Visualization][23]
+
+
 
 
 
@@ -78,3 +84,5 @@ Here's a list of useful online resources for learning or experimenting.
 [19]: http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/
 [20]: http://www.wildml.com/2016/10/learning-reinforcement-learning/
 [21]: http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
+[22]: https://distill.pub/2016/misread-tsne/
+[23]: http://www.madopro.net/entry/WordEmbeddingsVisualization
