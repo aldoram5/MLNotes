@@ -25,7 +25,41 @@
 
 ### Random Forest 
 
-### AdaBoost 
+A Random Forest is a meta estimator which is an ensemble of Decision Trees trained on various subsets of the dataset, to improve it's accuracy and try to prevent overfitting. As an ensemble it uses the predictions of the generated trees and then makes a prediction based on their results
+
+---
+
+#### scikit-learn 
+
+```
+
+from sklearn.ensemble import RandomForestClassifier
+
+random_forest = RandomForestClassifier(n_estimators=200)
+random_forest.fit(x, y)
+
+```
+The hyper parameters are:
+
+__n_estimators:__ The number of trees in the forest. Usually having more tree is better, still worth finding the number where it starts to converge.
+
+__max_features:__ The number of features to consider when looking for the best split, this one should be tested with a wide range of values, since this is pretty much the most important hyperparameter. In Scikit-learn this parameter can be an integer, float(int(max_features * n_features) features are considered at each split) or a string with possible values: “auto”( max_features=sqrt(n_features)), “sqrt”(same as auto),“log2” (max_features=log2(n_features)) or `None` which means max_features=n_features.
+
+__max_depth:__ The maximum depth of the tree. By default there's no limit and the three will grow as much as it needs but it's recommended to limit their growth if you are dealing with "noisy data".
+
+[Full parameter description in the official docs](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+
+#### Tensorflow
+
+As of now the high level implementation is still under the contrib module, since everything in that module is subject to change at anytime I'll put the link to the official example. When it finally goes to the estimator module outside of the contrib module I'll update this.
+[RandomForest MNIST - TF ](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/learn/random_forest_mnist.py)
+
+#### Keras
+
+Coming soon
+
+### Adaboost
 
 ### Gradient Boosting 
 
