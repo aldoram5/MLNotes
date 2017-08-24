@@ -3,7 +3,30 @@
 
 ### Linear Regression 
 
+Linear models make a prediction by computing a weighted sum of the input features, plus a constant called the bias term. It's easily visualized by it's similarity to the equation: __Y = a + bX__
+
+---
+
+#### scikit-learn 
+
+```
+from sklearn.linear_model import LinearRegression
+
+lr = LinearRegression()
+lr.fit(X, y)
+
+```
+The hyper parameters are:
+
+__fit_intercept:__ Whether or not to calculate the intercept for this model. True by default and usually there's no reason to not keep it like that.
+
+__normalize:__ Defaults to false, leave it like that unless you know what you are doing. If True, the regressors X will be normalized before regression by subtracting the mean and dividing by the l2-norm.
+
+Basically it's best to use the defaults.
+
 ### Gradient Descent
+
+
 
 ### Polynomial regression
 
@@ -64,3 +87,12 @@ Coming soon
 ### Gradient Boosting 
 
 ### Stacking 
+
+---
+
+## Clustering
+
+### K-means
+
+
+
