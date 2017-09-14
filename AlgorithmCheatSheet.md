@@ -3,7 +3,9 @@
 
 ### Linear Regression 
 
-Linear models make a prediction by computing a weighted sum of the input features, plus a constant called the bias term. It's easily visualized by it's similarity to the equation: __Y = a + bX__
+Linear models make a prediction assuming that there's a linear relationship between the features X and the value we want to find Y. That relationship is usually represented by the following equation Y =f(X)+ε. 
+
+The Linear Regression algorithm tries to find the f(X). ε is the random error term.
 
 ---
 
@@ -14,6 +16,19 @@ from sklearn.linear_model import LinearRegression
 
 lr = LinearRegression()
 lr.fit(X, y)
+
+# Evaluating the model 
+
+# Getting the coefficients 
+coeff_df = pd.DataFrame(lm.coef_,X.columns,columns=['Coefficient'])
+# Making predictions
+predictions = lm.predict(X_test)
+
+# Evaluating performance 
+
+print('MAE:', metrics.mean_absolute_error(y_test, predictions))
+print('MSE:', metrics.mean_squared_error(y_test, predictions))
+print('RMSE:', np.sqrt(metrics.mean_squared_error(y_test, predictions)))
 
 ```
 The hyper parameters are:
