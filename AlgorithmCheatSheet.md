@@ -20,7 +20,8 @@ lr.fit(X, y)
 # Evaluating the model 
 
 # Getting the coefficients 
-coeff_df = pd.DataFrame(lm.coef_,X.columns,columns=['Coefficient'])
+coeff_df = pd.DataFrame(lr.coef_,X.columns,columns=['Coefficient'])
+
 # Making predictions
 predictions = lm.predict(X_test)
 
