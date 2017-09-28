@@ -71,7 +71,9 @@ print(classification_report(y_test,predictions))
 ```
 The hyper parameters usually are "good enough" by default, but there are a lot of them and every one can affect how the logistic regression is going to perform so instead here is the link to the [official SKLearn documentation](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) and it's [user guide](http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression) for fast access.
 
-### Gradient Descent
+### K-Nearest Neighbors
+
+
 
 ### Polynomial regression
 
