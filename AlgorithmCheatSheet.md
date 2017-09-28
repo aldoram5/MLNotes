@@ -42,15 +42,40 @@ __normalize:__ Defaults to false, leave it like that unless you know what you ar
 
 Basically it's best to use the defaults.
 
+### Logistic Regression
+
+Works similarly to LinearRegression, however, instead of predicting a value, it predicts in which 'class' belongs the item we are predicting. To do so it uses a [Logistic Function](https://en.wikipedia.org/wiki/Logistic_function) to output values within the range of 0 to 1.
+
+---
+
+#### scikit-learn 
+
+```
+from sklearn.linear_model import LogisticRegression
+
+lr = LogisticRegression()
+lr.fit(X_train,y_train)
+
+# Evaluating the model 
+
+# Import classification_report
+from sklearn.metrics import classification_report
+
+# Making predictions
+predictions = lr.predict(X_test)
+
+# Evaluating performance 
+
+print(classification_report(y_test,predictions))
+
+```
+The hyper parameters usually are "good enough" by default, but there are a lot of them and every one can affect how the logistic regression is going to perform so instead here is the link to the [official SKLearn documentation](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) and it's [user guide](http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression) for fast access.
+
 ### Gradient Descent
-
-
 
 ### Polynomial regression
 
 ### Regularized linear models 
-
-### Logistic Regression
 
 ## Support Vector Machines 
 
